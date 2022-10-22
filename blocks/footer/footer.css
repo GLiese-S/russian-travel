@@ -1,0 +1,15 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 24px;
+  padding-left: 48px;
+  padding-right: 48px;
+  /* background-color: #afaf6f; */
+}
+
+@media (max-width: 690px) {
+  .footer {
+    flex-direction: column;
+    gap: 48px;
+  }
+}

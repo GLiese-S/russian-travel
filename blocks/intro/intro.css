@@ -1,0 +1,29 @@
+.intro {
+  margin-left: 148px;
+  max-width: 690px;
+  /* background-color: green; */
+}
+
+@media (max-width: 1024px) {
+  .intro {
+    margin-left: 48px;
+  }
+}
+
+@media (max-width: 810px) {
+  .intro {
+    margin: 0 48px;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro {
+    margin: 0 24px;
+  }
+}
+
+/* @media (max-width: 320px) {
+  .intro {
+    padding: ;
+  }
+} */

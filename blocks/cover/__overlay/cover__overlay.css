@@ -1,0 +1,29 @@
+.cover__overlay {
+  position: relative;
+  display: grid;
+  max-width: 1184px;
+  width: 100%;
+  margin: 0 auto;
+  align-items: center;
+  text-decoration: none;
+  z-index: 3;
+}
+
+.cover__overlay::before {
+  display: block;
+  content: "";
+  width: 100%;
+  padding-bottom: 62.5%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #2A2C2F;
+  opacity: .3;
+  transition: .3s ease-in-out;
+  z-index: 3;
+}
+
+.cover__overlay:hover::before {
+  opacity: .8;
+  transition: .3 ease-in-out;
+}
