@@ -16,10 +16,10 @@
 
 @media (max-width: 768px) {
   .lead__subtitle {
-    font-size: 4.3vw;
-    line-height: calc(4.3vw + 4px);
+    font-size: 3.9vw;
+    line-height: calc(3.9vw + 6px);
     max-width: 80vw;
-    padding-bottom: 48px;
+    padding-bottom: 56px;
   }
 }
 
@@ -30,5 +30,6 @@
     line-height: 20px;
     padding-top: 16px;
     padding-bottom: 40px;
+    max-width: 82vw;
   }
 }

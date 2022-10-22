@@ -3,11 +3,14 @@
   font-size: 12px;
   line-height: 20px;
   font-weight: 400;
-  padding-bottom: 12px;
+  padding-bottom: 4px;
+  text-transform: uppercase;
 }
 
 @media (max-width: 768px) {
   .place__url-heading {
     line-height: 12px;
+    padding-bottom: 12px;
+    letter-spacing: 1.5px;
   }
 }

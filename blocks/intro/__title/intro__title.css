@@ -15,8 +15,8 @@
 
 @media (max-width: 768px) {
   .intro__title {
-    font-size: 7.5vw;
-    line-height: calc(7.5vw + 4px);
+    font-size: 7.05vw;
+    line-height: calc(7.05vw + 4px);
   }
 }
 

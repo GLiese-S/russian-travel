@@ -9,8 +9,8 @@
 
 @media (max-width: 768px) {
   .lead__title {
-    font-size: 12vw;
-    line-height: calc(12vw + 4px);
+    font-size: 12.5vw;
+    line-height: calc(12.5vw + 4px);
   }
 }
 
