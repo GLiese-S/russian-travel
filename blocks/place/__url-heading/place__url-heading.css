@@ -3,14 +3,25 @@
   font-size: 12px;
   line-height: 20px;
   font-weight: 400;
-  padding-bottom: 4px;
+  padding-bottom: 6px;
   text-transform: uppercase;
+}
+
+@media (max-width: 1024px) {
+  .place__url-heading {
+    padding-bottom: 8px;
+  }
 }
 
 @media (max-width: 768px) {
   .place__url-heading {
-    line-height: 12px;
     padding-bottom: 12px;
     letter-spacing: 1.5px;
+  }
+}
+
+@media (max-width: 320px) {
+  .place__url-heading {
+    padding-bottom: 9px;
   }
 }

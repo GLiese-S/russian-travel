@@ -1,19 +1,19 @@
 .places {
   margin: 0 auto;
-  padding: 0 130px;
+  padding: 0 128px;
   display: grid;
   grid-gap: 80px;
 }
 
 @media (max-width: 1024px) {
   .places {
-    padding: 0 50px;
+    padding: 0 48px;
   }
 }
 
 @media (max-width: 768px) {
   .places {
-    grid-gap: 72px;
+    grid-gap: 64px;
     padding: 0 24px;
   }
 }
